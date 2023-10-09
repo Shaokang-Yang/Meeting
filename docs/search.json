@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Meeting",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Paper 2\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\nMeeting Update\n\n\n\n\n\n\n  \n\n\n\n\nPaper 1: Smartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -18,7 +18,7 @@
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n—title: “Post With Code”author: “Harlow Malloc”date: “2023-10-09”categories: [news, code, analysis]image: “image.jpg”format: revealjs—## Getting up- Turn off alarm- Get out of bed## Going to sleep- Get in bed- Count sheep"
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "about.html",
@@ -40,5 +40,40 @@
     "title": "Post With Code",
     "section": "Going to sleep",
     "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "posts/post-with-code/paper1.html",
+    "href": "posts/post-with-code/paper1.html",
+    "title": "Paper 1",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n\n\n\n\nVARIABLES\nsleep_duration\nsleep_duration\nsleep_duration\nsleep_duration\nsleep_duration\nsleep_duration\n\n\n\n\n\n\n\n\n\n\n\nicall\n-12.290***\n\n-10.419***\n\n\n\n\n\n\n(1.453)\n\n(1.651)\n\n\n\n\n\ncall\n\n-5.237***\n-1.199\n\n\n\n\n\n\n\n(0.678)\n(0.779)\n\n\n\n\n\n0b.icall#co.call\n\n\n0.000\n\n\n\n\n\n\n\n\n(0.000)\n\n\n\n\n\niimessage\n\n\n\n-8.874***\n\n-2.828\n\n\n\n\n\n\n(0.933)\n\n(3.072)\n\n\nmessage_q\n\n\n\n\n-1.222***\n-0.851*\n\n\n\n\n\n\n\n(0.139)\n(0.460)\n\n\n0b.iimessage#co.message_q\n\n\n\n\n\n0.000\n\n\n\n\n\n\n\n\n(0.000)\n\n\nConstant\n524.702***\n524.699***\n524.696***\n528.441***\n529.686***\n529.364***\n\n\n\n(9.324)\n(9.331)\n(9.326)\n(9.334)\n(9.346)\n(9.343)\n\n\n\n\n\n\n\n\n\n\n\nObservations\n127,390\n127,390\n127,390\n127,390\n127,390\n127,390\n\n\nR-squared\n0.263\n0.262\n0.263\n0.263\n0.263\n0.263\n\n\nNumber of egoid\n509\n509\n509\n509\n509\n509\n\n\nSleep Control\nGo2Bed\nGo2Bed\nGo2Bed\nGo2Bed\nGo2Bed\nGo2Bed"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html",
+    "href": "posts/Paper 2/paper2.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "Turn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#getting-up",
+    "href": "posts/Paper 2/paper2.html#getting-up",
+    "title": "Paper 2",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#going-to-sleep",
+    "href": "posts/Paper 2/paper2.html#going-to-sleep",
+    "title": "Paper 2",
+    "section": "Going to sleep",
+    "text": "Going to sleep"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html",
+    "href": "posts/Paper 1/paper1.html",
+    "title": "Paper 1: Smartphone Use, Social Support, and Sleep Health",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   }
 ]

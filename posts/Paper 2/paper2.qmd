@@ -1,0 +1,17 @@
+---
+title: "Paper 2"
+author: "Meeting Update"
+date: today
+categories: [news, code, analysis]
+image: "image.jpg"
+format: revealjs
+---
+
+## Getting up
+
+-   Turn off alarm
+-   Get out of bed
+
+## Going to sleep
+
+![](images/table1.png){fig-align="center"}

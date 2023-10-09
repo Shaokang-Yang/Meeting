@@ -1,0 +1,14 @@
+---
+title: "Paper 1: Smartphone Use, Social Support, and Sleep Health"
+date: today
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
+
+![](images/table1-01.png)

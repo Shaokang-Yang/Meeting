@@ -9,4 +9,6 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
+title-block-banner-color: "#002FA7"
+affiliation-title: "Virginia Tech"
 ---
