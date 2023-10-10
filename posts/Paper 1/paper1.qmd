@@ -1,14 +1,23 @@
 ---
-title: "Paper 1: Smartphone Use, Social Support, and Sleep Health"
+title: "Smartphone Use, Social Support, and Sleep Health"
 date: today
 categories: [news, code, analysis]
 image: "image.jpg"
+format: revealjs
 ---
 
-This is a post with executable code.
+## Falling Asleep Hours Distribution
 
-```{r}
-1 + 1
-```
+![](images/Go2Bed-02.png){fig-align="center"}
 
-![](images/table1-01.png)
+## Falling Wake Hours Distribution
+
+![](images/wake.png){fig-align="center"}
+
+## Falling Asleep Hours Distribution
+
+**Insession** X **Day of Week** X **Go2Bed Hour**
+
+![](images/table1-01.png){fig-align="center"}
+
+## Variaton of Measurement Window

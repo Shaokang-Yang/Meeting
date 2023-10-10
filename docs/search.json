@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Meeting",
     "section": "",
-    "text": "Paper 2\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\nMeeting Update\n\n\n\n\n\n\n  \n\n\n\n\nPaper 1: Smartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 9, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nMeeting Update\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -58,22 +58,50 @@
   {
     "objectID": "posts/Paper 2/paper2.html#getting-up",
     "href": "posts/Paper 2/paper2.html#getting-up",
-    "title": "Paper 2",
+    "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Getting up",
     "text": "Getting up\n\nTurn off alarm\nGet out of bed"
   },
   {
     "objectID": "posts/Paper 2/paper2.html#going-to-sleep",
     "href": "posts/Paper 2/paper2.html#going-to-sleep",
-    "title": "Paper 2",
+    "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Going to sleep",
     "text": "Going to sleep"
   },
   {
     "objectID": "posts/Paper 1/paper1.html",
     "href": "posts/Paper 1/paper1.html",
-    "title": "Paper 1: Smartphone Use, Social Support, and Sleep Health",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution",
+    "href": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
+    "section": "Falling Asleep Hours Distribution",
+    "text": "Falling Asleep Hours Distribution"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution-1",
+    "href": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution-1",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
+    "section": "Falling Asleep Hours Distribution",
+    "text": "Falling Asleep Hours Distribution\nInsession X Day of Week X Go2Bed Hour"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html#variaton-of-measurement-window",
+    "href": "posts/Paper 1/paper1.html#variaton-of-measurement-window",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
+    "section": "Variaton of Measurement Window",
+    "text": "Variaton of Measurement Window"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html#falling-wake-hours-distribution",
+    "href": "posts/Paper 1/paper1.html#falling-wake-hours-distribution",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
+    "section": "Falling Wake Hours Distribution",
+    "text": "Falling Wake Hours Distribution"
   }
 ]
