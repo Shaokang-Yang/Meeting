@@ -242,7 +242,7 @@
     "href": "posts/Paper 2/paper2.html#conclusion",
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\nDegree Centrality does not affect smartphone use. H1 not supported.\nK-Core reduce over all smartphone use( Communication, others and overall).  H2 supported.\nCommunication frequency shows NO moderating impact on network features.  H3 not supported."
+    "text": "Conclusion\n\n\nDegree Centrality does not affect smartphone use. H1 not supported.\nK-Core reduce over all smartphone use( Communication, others and overall).  H2 supported.\nCommunication frequency shows NO moderating impact on network features.  H3 not supported.\nNetwork features outperform traditional constructs (Trust, Social Close)."
   },
   {
     "objectID": "posts/Paper 2/paper2.html#result-1",
@@ -306,5 +306,12 @@
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Result 3: Addiction Esimation (Logistic)",
     "text": "Result 3: Addiction Esimation (Logistic)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-4-sleep-as-dv",
+    "href": "posts/Paper 2/paper2.html#result-4-sleep-as-dv",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 4: Sleep as DV",
+    "text": "Result 4: Sleep as DV"
   }
 ]
