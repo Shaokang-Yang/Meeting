@@ -18,10 +18,44 @@ Normal Sleep: fall asleep from 22 pm to 6 am. (**95.99** % of Total.)
 
 ## Interaction of Time terms
 
-### **Insession** x **Day of Week** x **Go2Bed Hour** {style="blue"}
+::: incremental
+-   **Insession** x **Day of Week** x **Go2Bed Hour**:\
+    1 x 5 x 2: [2 am on Friday of a Semester]{.underline}
+-   Abnormal Screen Time Threshold: 12 -\> 3.5 hours
+-   Screen time as control: We focus on **Technology** impact under the influence of **Human** factors
+:::
 
-## Abnormal Screen Time: > 3.5 hours
+## Conclusion
 
-**1 x 5 x 2: [2 am on Friday of a Semester]{.underline}**
+::: incremental
+-   Social interaction via smartphone can **benefit** sleep quality
+-   Interaction with **close** contacts prolong sleep
+-   Interaction with certain **relationships** of contacts (e.g. family) prolong sleep
+:::
 
-## Impact of Call and Message
+## Moderating Impact: The Way of Interaction
+
+::: incremental
+-   Message: **Positive** moderation
+-   Call: Depends on the **relationship** and **closeness**
+:::
+
+## Result 1: Social Closeness via Message
+
+![](images/MsgClose.png){fig-align="center"}
+
+## Result 2: Social Closeness via Call
+
+![](images/Close_Cal.png){fig-align="center"}
+
+## Result 3: Relationship via Message
+
+![](images/Rel_Msg.png){fig-align="center"}
+
+## Result 4: Relationship via Call
+
+![](images/Rel_Cal.png)
+
+## Result 5: Pre-Sleep Communication benefit Sleep Quality
+
+![](images/ComCM.png){fig-align="center"}
