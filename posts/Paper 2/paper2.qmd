@@ -1,8 +1,7 @@
 ---
 title: "Social Network Activation: \\The Application in Smartphone Use"
-author: "Meeting Update"
 date: today
-categories: [news, code, analysis]
+categories: [Paper2]
 image: "image.jpg"
 format: revealjs
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Smartphone Use, Social Support, and Sleep Health"
 date: today
-categories: [news, code, analysis]
+categories: [Paper1]
 image: "image.jpg"
 format: revealjs
 ---
@@ -10,16 +10,18 @@ format: revealjs
 
 ![](images/Go2Bed-02.png){fig-align="center"}
 
-Filter the hours of falling asleep from 22 pm to 6 am. (95.99 % of Total.)
+Normal Sleep: fall asleep from 22 pm to 6 am. (**95.99** % of Total.)
 
 ## Falling Wake Hours Distribution
 
 ![](images/wake.png){fig-align="center"}
 
-## Falling Asleep Hours Distribution
+## Interaction of Time terms
 
-**Insession** X **Day of Week** X **Go2Bed Hour**
+### **Insession** x **Day of Week** x **Go2Bed Hour** {style="blue"}
 
-![](images/table1-01.png){fig-align="center"}
+## Abnormal Screen Time: > 3.5 hours
 
-## Variaton of Measurement Window
+**1 x 5 x 2: [2 am on Friday of a Semester]{.underline}**
+
+## Impact of Call and Message

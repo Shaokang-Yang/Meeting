@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Meeting",
     "section": "",
-    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\nMeeting Update\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nOct 6, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nPaper1\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -81,14 +81,14 @@
     "href": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution",
     "title": "Smartphone Use, Social Support, and Sleep Health",
     "section": "Falling Asleep Hours Distribution",
-    "text": "Falling Asleep Hours Distribution\n\nFilter the hours of falling asleep from 22 pm to 6 am. (95.99 % of Total.)"
+    "text": "Falling Asleep Hours Distribution\n\nNormal Sleep: fall asleep from 22 pm to 6 am. (95.99 % of Total.)"
   },
   {
     "objectID": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution-1",
     "href": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution-1",
     "title": "Smartphone Use, Social Support, and Sleep Health",
     "section": "Falling Asleep Hours Distribution",
-    "text": "Falling Asleep Hours Distribution\nInsession X Day of Week X Go2Bed Hour"
+    "text": "Falling Asleep Hours Distribution\nInsession x Day of Week x Go2Bed Hour\n1 x 5 x 2: 2 am on Friday of a Semester"
   },
   {
     "objectID": "posts/Paper 1/paper1.html#variaton-of-measurement-window",
@@ -103,5 +103,19 @@
     "title": "Smartphone Use, Social Support, and Sleep Health",
     "section": "Falling Wake Hours Distribution",
     "text": "Falling Wake Hours Distribution"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html#interaction-of-time-terms",
+    "href": "posts/Paper 1/paper1.html#interaction-of-time-terms",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
+    "section": "Interaction of Time terms",
+    "text": "Interaction of Time terms\nInsession x Day of Week x Go2Bed Hour\n1 x 5 x 2: 2 am on Friday of a Semester"
+  },
+  {
+    "objectID": "posts/Paper 1/paper1.html#impact-of-call-and-message",
+    "href": "posts/Paper 1/paper1.html#impact-of-call-and-message",
+    "title": "Smartphone Use, Social Support, and Sleep Health",
+    "section": "Impact of Call and Message",
+    "text": "Impact of Call and Message"
   }
 ]
