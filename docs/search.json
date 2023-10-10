@@ -208,5 +208,103 @@
     "title": "Smartphone Use, Social Support, and Sleep Health",
     "section": "Result 5: Pre-Sleep Communication benefit Sleep Quality",
     "text": "Result 5: Pre-Sleep Communication benefit Sleep Quality"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#social-network-activation",
+    "href": "posts/Paper 2/paper2.html#social-network-activation",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Social Network Activation",
+    "text": "Social Network Activation"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#hypothesis-1",
+    "href": "posts/Paper 2/paper2.html#hypothesis-1",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Hypothesis 1",
+    "text": "Hypothesis 1\n\n\nH1: Activating social networks with a higher the Degree Centrality of a reduce the time spent on a smartphone."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#hypothesis-2",
+    "href": "posts/Paper 2/paper2.html#hypothesis-2",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Hypothesis 2",
+    "text": "Hypothesis 2\n\n\nH2: Activating social networks with a higher the K-Core of a reduce the time spent on a smartphone."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#hypothesis-3",
+    "href": "posts/Paper 2/paper2.html#hypothesis-3",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Hypothesis 3",
+    "text": "Hypothesis 3\n\nH3: Communication frequency positively moderates the impact of degree centrality and K-Core."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#conclusion",
+    "href": "posts/Paper 2/paper2.html#conclusion",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\nDegree Centrality does not affect smartphone use. H1 not supported.\nK-Core reduce over all smartphone use( Communication, others and overall).  H2 supported.\nCommunication frequency shows NO moderating impact on network features.  H3 not supported."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-1",
+    "href": "posts/Paper 2/paper2.html#result-1",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 1",
+    "text": "Result 1"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-2",
+    "href": "posts/Paper 2/paper2.html#result-2",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 2",
+    "text": "Result 2"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-3",
+    "href": "posts/Paper 2/paper2.html#result-3",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 3",
+    "text": "Result 3\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-1-main-centrality-k-core",
+    "href": "posts/Paper 2/paper2.html#result-1-main-centrality-k-core",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 1: Main (Centrality & K-Core)",
+    "text": "Result 1: Main (Centrality & K-Core)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-2-moderating-impact-of-communication",
+    "href": "posts/Paper 2/paper2.html#result-2-moderating-impact-of-communication",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 2: Moderating Impact of Communication",
+    "text": "Result 2: Moderating Impact of Communication"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-3-addiction",
+    "href": "posts/Paper 2/paper2.html#result-3-addiction",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 3: Addiction",
+    "text": "Result 3: Addiction\nglobal id egoid\nglobal t date2\nglobal ylist addic_noncom90\nglobal mainIV  active_nodes out_contacts  num_edges  steps minsasleep trust close position duration\nglobal Social_Control degree_centrality core_number\nglobal Other_Control i.insession i.weekday community naps nap_minsasleep\nglobal fe i.studyweek\n*Set data as panel data\nsort $id $t\nxtset $id $t\n\nxtreg $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) \nxtlogit $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) or\noutreg2 using SoUnAcSl.tex, append dec(3) addtext(Communication, Full, Unit F.E., YES, Week F.E, YES) keep($mainIV $Social_Control)  title(\"90 Addiction Estimation\")"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-3-addiction-esimation-logistic",
+    "href": "posts/Paper 2/paper2.html#result-3-addiction-esimation-logistic",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 3: Addiction Esimation (Logistic)",
+    "text": "Result 3: Addiction Esimation (Logistic)\nglobal id egoid\nglobal t date2\nglobal ylist addic_noncom90\nglobal mainIV  active_nodes out_contacts  num_edges  steps minsasleep trust close position duration\nglobal Social_Control degree_centrality core_number\nglobal Other_Control i.insession i.weekday community naps nap_minsasleep\nglobal fe i.studyweek\n*Set data as panel data\nsort $id $t\nxtset $id $t\n\nxtreg $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) \nxtlogit $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) or\noutreg2 using SoUnAcSl.tex, append dec(3) addtext(Communication, Full, Unit F.E., YES, Week F.E, YES) keep($mainIV $Social_Control)  title(\"90 Addiction Estimation\")"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-3-addiction-esimation-logistic-1",
+    "href": "posts/Paper 2/paper2.html#result-3-addiction-esimation-logistic-1",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 3: Addiction Esimation (Logistic)",
+    "text": "Result 3: Addiction Esimation (Logistic)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-3-addiction-esimation-logistic-2",
+    "href": "posts/Paper 2/paper2.html#result-3-addiction-esimation-logistic-2",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 3: Addiction Esimation (Logistic)",
+    "text": "Result 3: Addiction Esimation (Logistic)"
   }
 ]
