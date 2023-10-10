@@ -10,6 +10,8 @@ format: revealjs
 
 ![](images/Go2Bed-02.png){fig-align="center"}
 
+Filter the hours of falling asleep from 22 pm to 6 am. (95.99 % of Total.)
+
 ## Falling Wake Hours Distribution
 
 ![](images/wake.png){fig-align="center"}
