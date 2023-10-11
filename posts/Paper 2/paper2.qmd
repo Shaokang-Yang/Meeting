@@ -14,17 +14,21 @@ format: revealjs
 
 ![](images/centrality-01.png){fig-align="center"}
 
--   H1: Activating social networks with a higher the **Degree Centrality** of a **reduce** the time spent on a smartphone.
+-   H1: Activating social networks with a higher **Degree Centrality** score **reduces** the time spent on a smartphone.
 
 ## Hypothesis 2
 
 ![](images/core_number.png){fig-align="center"}
 
--   H2: Activating social networks with a higher the **K-Core** of a **reduce** the time spent on a smartphone.
+-   H2: Activating social networks with a higher **K-Core** score **reduces** the time spent on a smartphone.
 
 ## Hypothesis 3
 
--   H3: Communication frequency **positively** moderates the impact of degree centrality and K-Core.
+-   H3 (1): An increase in the communication with high degree centrality contacts increases the effectiveness of degree centrality in reducing smartphone use.
+<br />
+<br />
+<br />
+-   H3 (2): An increase in the communication with high K-Core contacts increases the effectiveness of K-Core in reducing smartphone use.
 
 ## Conclusion
 
