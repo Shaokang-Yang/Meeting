@@ -24,11 +24,11 @@ format: revealjs
 
 ## Hypothesis 3
 
--   H3 (1): An increase in the communication with high degree centrality contacts increases the effectiveness of degree centrality in reducing smartphone use.
+-   H3 (1): An increase in communication with contacts with high degree centrality improves the effectiveness of degree centrality in reducing smartphone usage.
 <br />
 <br />
 <br />
--   H3 (2): An increase in the communication with high K-Core contacts increases the effectiveness of K-Core in reducing smartphone use.
+-   H3 (2): An increase in communication with contacts with high K-Core improves the effectiveness of K-Core in reducing smartphone usage.
 
 ## Conclusion
 
