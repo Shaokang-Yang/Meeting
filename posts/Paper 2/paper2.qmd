@@ -24,19 +24,16 @@ format: revealjs
 
 ## Hypothesis 3
 
--   H3 (1): An increase in communication with contacts with high degree centrality improves the effectiveness of degree centrality in reducing smartphone usage.
-<br />
-<br />
-<br />
+-   H3 (1): An increase in communication with contacts with high degree centrality improves the effectiveness of degree centrality in reducing smartphone usage. <br /> <br /> <br />
 -   H3 (2): An increase in communication with contacts with high K-Core improves the effectiveness of K-Core in reducing smartphone usage.
 
 ## Conclusion
 
 ::: incremental
--   Degree Centrality **does not** affect smartphone use. H1 not supported.
--   K-Core **reduce** over all smartphone use( Communication, others and overall).  H2 supported.
--   Communication frequency shows **NO** moderating impact on network features.  H3 not supported.
--   Network features **outperform** traditional constructs (Trust, Social Close).
+-   Degree Centrality **does not** affect non-communication smartphone use but **improve**s overall smartphone use by increasing the time spent on communication. **H1 is not supported.**
+-   K-Core **reduces** overall smartphone use( Communication, others and overall).  **H2 is supported.**
+-   Communication frequency shows **NO moderating impact** on the effectiveness of network features.  **H3 is not supported.**
+-   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
 :::
 
 ## Result 1: Main (Centrality & K-Core)
@@ -46,6 +43,17 @@ format: revealjs
 ## Result 2: Moderating Impact of Communication
 
 ![](images/2table6.png){fig-align="center"}
+
+## Result 3: Addiction Esimation (Logistic)
+
+\
+Addiction is defined as:
+
+-   **Overall** addiction: overall screen time \> 300 min
+
+-   **Non-communication-drive** addiction: Non-communication screen time \> 240 min
+
+-   **Communication-drive** addiction: Communication screen time \> 40 min
 
 ## Result 3: Addiction Esimation (Logistic)
 
@@ -76,4 +84,4 @@ outreg2 using SoUnAcSl.tex, append dec(3) addtext(Communication, Full, Unit F.E.
 
 ## Result 4: Sleep as DV
 
-![](images/2sleep.png){fig-align="center"}
+-   ![](images/2sleep.png){fig-align="center"}

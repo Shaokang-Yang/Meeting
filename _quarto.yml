@@ -17,6 +17,6 @@ format:
 editor: visual
 
 plugins:
-    - encryptcontent:
-        global_password: 'your_password'
+    - search: {}
+    - encryptcontent: {}
 

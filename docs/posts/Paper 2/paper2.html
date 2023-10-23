@@ -426,10 +426,10 @@
 <h2>Conclusion</h2>
 <div>
 <ul>
-<li class="fragment">Degree Centrality <strong>does not</strong> affect smartphone use.&nbsp;H1 not supported.</li>
-<li class="fragment">K-Core <strong>reduce</strong> over all smartphone use( Communication, others and overall). &nbsp;H2 supported.</li>
-<li class="fragment">Communication frequency shows <strong>NO</strong> moderating impact on network features. &nbsp;H3 not supported.</li>
-<li class="fragment">Network features <strong>outperform</strong> traditional constructs (Trust, Social Close).</li>
+<li class="fragment">Degree Centrality <strong>does not</strong> affect non-communication smartphone use but <strong>improve</strong>s overall smartphone use by increasing the time spent on communication.&nbsp;<strong>H1 is not supported.</strong></li>
+<li class="fragment">K-Core <strong>reduces</strong> overall smartphone use( Communication, others and overall). &nbsp;<strong>H2 is supported.</strong></li>
+<li class="fragment">Communication frequency shows <strong>NO moderating impact</strong> on the effectiveness of network features. &nbsp;<strong>H3 is not supported.</strong></li>
+<li class="fragment">Network features <strong>outperform</strong> traditional constructs (Trust, Social Distance (Closeness)).</li>
 </ul>
 </div>
 </section>
@@ -442,6 +442,16 @@
 
 <img data-src="images/2table6.png" class="r-stretch quarto-figure-center"></section>
 <section id="result-3-addiction-esimation-logistic" class="slide level2">
+<h2>Result 3: Addiction Esimation (Logistic)</h2>
+<p><br>
+Addiction is defined as:</p>
+<ul>
+<li><p><strong>Overall</strong> addiction: overall screen time &gt; 300 min</p></li>
+<li><p><strong>Non-communication-drive</strong> addiction: Non-communication screen time &gt; 240 min</p></li>
+<li><p><strong>Communication-drive</strong> addiction: Communication screen time &gt; 40 min</p></li>
+</ul>
+</section>
+<section id="result-3-addiction-esimation-logistic-1" class="slide level2">
 <h2>Result 3: Addiction Esimation (Logistic)</h2>
 <div class="sourceCode" id="cb1" data-code-line-numbers="12-13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">global</span> <span class="bu">id</span> egoid</span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="kw">global</span> t date2</span>
@@ -458,19 +468,21 @@
 <span id="cb1-13"><a href="#cb1-13"></a>xtlogit $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) <span class="kw">or</span></span>
 <span id="cb1-14"><a href="#cb1-14"></a>outreg2 using SoUnAcSl.tex, append dec(<span class="dv">3</span>) addtext(Communication, Full, Unit F.E., YES, Week F.E, YES) keep($mainIV $Social_Control)  title(<span class="st">"90 Addiction Estimation"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="result-3-addiction-esimation-logistic-1" class="slide level2">
+<section id="result-3-addiction-esimation-logistic-2" class="slide level2">
 <h2>Result 3: Addiction Esimation (Logistic)</h2>
 
 <img data-src="images/addiction.png" class="r-stretch quarto-figure-center"></section>
-<section id="result-3-addiction-esimation-logistic-2" class="slide level2">
+<section id="result-3-addiction-esimation-logistic-3" class="slide level2">
 <h2>Result 3: Addiction Esimation (Logistic)</h2>
 
 <img data-src="images/addiction2-02.png" class="r-stretch quarto-figure-center"></section>
 <section id="result-4-sleep-as-dv" class="slide level2">
 <h2>Result 4: Sleep as DV</h2>
+<ul>
+<li><img data-src="images/2sleep.png" data-fig-align="center"></li>
+</ul>
 
-
-<img data-src="images/2sleep.png" class="r-stretch quarto-figure-center"><div class="footer footer-default">
+<div class="footer footer-default">
 
 </div>
 </section>
