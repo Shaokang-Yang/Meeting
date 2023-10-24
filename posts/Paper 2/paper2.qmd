@@ -24,8 +24,8 @@ format: revealjs
 
 ## Hypothesis 3
 
--   H3 (1): An increase in communication with contacts with high degree centrality improves the effectiveness of degree centrality in reducing smartphone usage. <br /> <br /> <br />
--   H3 (2): An increase in communication with contacts with high K-Core improves the effectiveness of K-Core in reducing smartphone usage.
+-   H3 (1): An **increase in communication** with contacts with high degree centrality **improves the effectiveness** of degree centrality in reducing smartphone usage. <br /> <br /> <br />
+-   H3 (2): An **increase in communication** with contacts with high K-Core **improves the effectiveness** of K-Core in reducing smartphone usage.
 
 ## Conclusion
 
@@ -36,11 +36,24 @@ format: revealjs
 -   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
 :::
 
+## Conclusion 1 & 2
+
+::: incremental
+-   Degree Centrality **does not** affect non-communication smartphone use but **improve**s overall smartphone use by increasing the time spent on communication. **H1 is not supported.**
+-   K-Core **reduces** overall smartphone use( Communication, others and overall).  **H2 is supported.**
+:::
+
 ## Result 1: Main (Centrality & K-Core)
 
 ![](images/2table5.png){fig-align="center"}
 
-## Result 2: Moderating Impact of Communication
+## Conclusion 3 & 4
+
+::: incremental
+-   Communication frequency shows **NO moderating impact** on the effectiveness of network features.  **H3 is not supported.**
+-   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
+:::
+## Result 3: Moderating Impact of Communication
 
 ![](images/2table6.png){fig-align="center"}
 
