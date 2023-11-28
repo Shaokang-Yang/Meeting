@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Meeting",
     "section": "",
-    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nPaper1\n\n\n\n\n\n\n\n\n\n\n\nOct 24, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nNov 28, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nPaper1\n\n\n\n\n\n\n\n\n\n\n\nNov 28, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -348,5 +348,68 @@
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Result 3: Moderating Impact of Communication",
     "text": "Result 3: Moderating Impact of Communication"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#conclusion-h1-h2",
+    "href": "posts/Paper 2/paper2.html#conclusion-h1-h2",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Conclusion (H1 & H2)",
+    "text": "Conclusion (H1 & H2)\n \n\n\nDegree Centrality does not affect non-communication smartphone use but improves overall smartphone use by increasing the time spent on communication. H1 is not supported.\nK-Core reduces overall smartphone use( Communication, others and overall).  H2 is supported."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#conclusion-3-h3",
+    "href": "posts/Paper 2/paper2.html#conclusion-3-h3",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Conclusion 3 (H3)",
+    "text": "Conclusion 3 (H3)\n \n\n\nCommunication frequency shows NO moderating impact on the effectiveness of network features.  H3 is not supported."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic",
+    "href": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 4: Addiction Esimation (Logistic)",
+    "text": "Result 4: Addiction Esimation (Logistic)\n\nAddiction is defined as:\n\nOverall addiction: overall screen time &gt; 300 min\nNon-communication-drive addiction: Non-communication screen time &gt; 240 min\nCommunication-drive addiction: Communication screen time &gt; 40 min"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic-1",
+    "href": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic-1",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 4: Addiction Esimation (Logistic)",
+    "text": "Result 4: Addiction Esimation (Logistic)\nglobal id egoid\nglobal t date2\nglobal ylist addic_noncom90\nglobal mainIV  active_nodes out_contacts  num_edges  steps minsasleep trust close position duration\nglobal Social_Control degree_centrality core_number\nglobal Other_Control i.insession i.weekday community naps nap_minsasleep\nglobal fe i.studyweek\n*Set data as panel data\nsort $id $t\nxtset $id $t\n\nxtreg $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) \nxtlogit $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) or\noutreg2 using SoUnAcSl.tex, append dec(3) addtext(Communication, Full, Unit F.E., YES, Week F.E, YES) keep($mainIV $Social_Control)  title(\"90 Addiction Estimation\")"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic-2",
+    "href": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic-2",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 4: Addiction Esimation (Logistic)",
+    "text": "Result 4: Addiction Esimation (Logistic)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic-3",
+    "href": "posts/Paper 2/paper2.html#result-4-addiction-esimation-logistic-3",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 4: Addiction Esimation (Logistic)",
+    "text": "Result 4: Addiction Esimation (Logistic)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#conclusion-4-h4",
+    "href": "posts/Paper 2/paper2.html#conclusion-4-h4",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Conclusion 4 (H4)",
+    "text": "Conclusion 4 (H4)\n \n\n\nNetwork features outperform traditional constructs (Trust, Social Distance (Closeness))."
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#specification-1",
+    "href": "posts/Paper 2/paper2.html#specification-1",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Specification 1",
+    "text": "Specification 1\n\n\n\\(\\begin{equation} \\begin{split} \\text{Screen Time}_{it} = \\beta_0 + \\beta_1 \\cdot \\text{Social Network Features}_{it} + \\\\ \\alpha \\cdot X_{it} + \\theta_i + \\lambda_t + \\varepsilon_{it} \\end{split} \\label{e1}\\end{equation}\\)\n\n\n\\(\\text{Screen Time}_{it}\\): Smartphone use time before users fall asleep\n\\(\\text{Social Network Features}_{it}\\): Degree Centrality and K-Core\n\\(\\text{X}_{it}\\): Control variables: Steps, sleep duration, naps, etc.\n\\(\\theta_i\\): Individual fixed effect (students)\n\\(\\lambda_t\\): Time fixed effect (day)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#specification-2",
+    "href": "posts/Paper 2/paper2.html#specification-2",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Specification 2",
+    "text": "Specification 2\n \n\\(\\begin{equation} \\begin{split} \\ln \\left(\\frac{\\operatorname{Pr}\\left(\\text { Addiction }_{it}=1 \\mid \\boldsymbol{X}_{i t}\\right)}{1-\\operatorname{Pr}\\left(\\text { Addiction }_{it}=1 \\mid \\boldsymbol{X}_{i t}\\right)}\\right) = \\beta_{0}+\\beta_{1} \\cdot \\text{Social Network Features}_{it}+ \\\\ \\alpha \\cdot X_{it}+\\theta_{i} +\\lambda_{t}+\\varepsilon_{it} \\end{split} \\label{e2} \\end{equation}\\)\n\n\n\\(\\text{Screen Time}_{it}\\): Smartphone use time before users fall asleep\n\\(\\text{Social Network Features}_{it}\\): Degree Centrality and K-Core\n\\(\\text{X}_{it}\\): Control variables: Steps, sleep duration, naps, etc.\n\\(\\theta_i\\): Individual fixed effect (students)\n\\(\\lambda_t\\): Time fixed effect (day)"
   }
 ]

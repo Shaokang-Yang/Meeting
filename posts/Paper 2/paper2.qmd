@@ -27,37 +27,42 @@ format: revealjs
 -   H3 (1): An **increase in communication** with contacts with high degree centrality **improves the effectiveness** of degree centrality in reducing smartphone usage. <br /> <br /> <br />
 -   H3 (2): An **increase in communication** with contacts with high K-Core **improves the effectiveness** of K-Core in reducing smartphone usage.
 
-## Conclusion
+## Specification 1
 
-::: incremental
--   Degree Centrality **does not** affect non-communication smartphone use but **improve**s overall smartphone use by increasing the time spent on communication. **H1 is not supported.**
--   K-Core **reduces** overall smartphone use( Communication, others and overall).  **H2 is supported.**
--   Communication frequency shows **NO moderating impact** on the effectiveness of network features.  **H3 is not supported.**
--   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
-:::
+\
 
-## Conclusion 1 & 2
+$\begin{equation} \begin{split} \text{Screen Time}_{it} = \beta_0 + \beta_1 \cdot \text{Social Network Features}_{it} + \\ \alpha \cdot X_{it} + \theta_i + \lambda_t + \varepsilon_{it} \end{split} \label{e1}\end{equation}$\
 
-::: incremental
--   Degree Centrality **does not** affect non-communication smartphone use but **improve**s overall smartphone use by increasing the time spent on communication. **H1 is not supported.**
--   K-Core **reduces** overall smartphone use( Communication, others and overall).  **H2 is supported.**
-:::
+-   $\text{Screen Time}_{it}$: Smartphone use time before users fall asleep
+-   $\text{Social Network Features}_{it}$: Degree Centrality and K-Core
+-   $\text{X}_{it}$: Control variables: Steps, sleep duration, naps, etc.
+-   $\theta_i$: Individual fixed effect (students)
+-   $\lambda_t$: Time fixed effect (day)
 
 ## Result 1: Main (Centrality & K-Core)
 
 ![](images/2table5.png){fig-align="center"}
 
-## Conclusion 3 & 4
+## Conclusion (H1 & H2)
+\ 
 
 ::: incremental
--   Communication frequency shows **NO moderating impact** on the effectiveness of network features.  **H3 is not supported.**
--   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
+-   Degree Centrality **does not** affect non-communication smartphone use but **improve**s overall smartphone use by increasing the time spent on communication. **H1 is not supported.**
+-   K-Core **reduces** overall smartphone use( Communication, others and overall).  **H2 is supported.**
 :::
+
 ## Result 3: Moderating Impact of Communication
 
 ![](images/2table6.png){fig-align="center"}
 
-## Result 3: Addiction Esimation (Logistic)
+## Conclusion 3 (H3)  
+\ 
+
+::: incremental
+-   Communication frequency shows **NO moderating impact** on the effectiveness of network features.  **H3 is not supported.**
+:::
+
+## Result 4: Addiction Esimation (Logistic)
 
 \
 Addiction is defined as:
@@ -68,7 +73,18 @@ Addiction is defined as:
 
 -   **Communication-drive** addiction: Communication screen time \> 40 min
 
-## Result 3: Addiction Esimation (Logistic)
+## Specification 2
+\ 
+
+$\begin{equation}  \begin{split} \ln \left(\frac{\operatorname{Pr}\left(\text { Addiction }_{it}=1 \mid \boldsymbol{X}_{i t}\right)}{1-\operatorname{Pr}\left(\text { Addiction }_{it}=1 \mid \boldsymbol{X}_{i t}\right)}\right)  = \beta_{0}+\beta_{1} \cdot \text{Social Network Features}_{it}+ \\ \alpha \cdot X_{it}+\theta_{i} +\lambda_{t}+\varepsilon_{it}  \end{split}  \label{e2} \end{equation}$\
+
+-   $\text{Screen Time}_{it}$: Smartphone use time before users fall asleep
+-   $\text{Social Network Features}_{it}$: Degree Centrality and K-Core
+-   $\text{X}_{it}$: Control variables: Steps, sleep duration, naps, etc.
+-   $\theta_i$: Individual fixed effect (students)
+-   $\lambda_t$: Time fixed effect (day)
+
+## Result 4: Addiction Esimation (Logistic)
 
 ``` {.python code-line-numbers="12-13"}
 global id egoid
@@ -87,13 +103,20 @@ xtlogit $ylist $fe  $Other_Control $Social_Control  $mainIV , fe cluster($id) or
 outreg2 using SoUnAcSl.tex, append dec(3) addtext(Communication, Full, Unit F.E., YES, Week F.E, YES) keep($mainIV $Social_Control)  title("90 Addiction Estimation")
 ```
 
-## Result 3: Addiction Esimation (Logistic)
+## Result 4: Addiction Esimation (Logistic)
 
 ![](images/addiction.png){fig-align="center"}
 
-## Result 3: Addiction Esimation (Logistic)
+## Result 4: Addiction Esimation (Logistic)
 
 ![](images/addiction2-02.png){fig-align="center"}
+
+## Conclusion 4 (H4)
+\ 
+
+::: incremental
+-   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
+:::
 
 ## Result 4: Sleep as DV
 
