@@ -403,13 +403,20 @@
     "href": "posts/Paper 2/paper2.html#specification-1",
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Specification 1",
-    "text": "Specification 1\n\n\n\\(\\begin{equation} \\begin{split} \\text{Screen Time}_{it} = \\beta_0 + \\beta_1 \\cdot \\text{Social Network Features}_{it} + \\\\ \\alpha \\cdot X_{it} + \\theta_i + \\lambda_t + \\varepsilon_{it} \\end{split} \\label{e1}\\end{equation}\\)\n\n\n\\(\\text{Screen Time}_{it}\\): Smartphone use time before users fall asleep\n\\(\\text{Social Network Features}_{it}\\): Degree Centrality and K-Core\n\\(\\text{X}_{it}\\): Control variables: Steps, sleep duration, naps, etc.\n\\(\\theta_i\\): Individual fixed effect (students)\n\\(\\lambda_t\\): Time fixed effect (day)"
+    "text": "Specification 1\n\n\n\\(\\begin{equation} \\begin{split} \\text{Screen Time}_{it} = \\beta_0 + \\beta_1 \\cdot \\text{Social Network Features}_{it} + \\alpha \\cdot X_{it} + \\theta_i + \\lambda_t + \\varepsilon_{it} \\end{split} \\label{e1}\\end{equation}\\)\n\n\n\\(\\text{Screen Time}_{it}\\): Smartphone use time before users fall asleep\n\\(\\text{Social Network Features}_{it}\\): Degree Centrality and K-Core\n\\(\\text{X}_{it}\\): Control variables: Steps, sleep duration, naps, etc.\n\\(\\theta_i\\): Individual fixed effect (students)\n\\(\\lambda_t\\): Time fixed effect (day)"
   },
   {
     "objectID": "posts/Paper 2/paper2.html#specification-2",
     "href": "posts/Paper 2/paper2.html#specification-2",
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Specification 2",
-    "text": "Specification 2\n \n\\(\\begin{equation} \\begin{split} \\ln \\left(\\frac{\\operatorname{Pr}\\left(\\text { Addiction }_{it}=1 \\mid \\boldsymbol{X}_{i t}\\right)}{1-\\operatorname{Pr}\\left(\\text { Addiction }_{it}=1 \\mid \\boldsymbol{X}_{i t}\\right)}\\right) = \\beta_{0}+\\beta_{1} \\cdot \\text{Social Network Features}_{it}+ \\\\ \\alpha \\cdot X_{it}+\\theta_{i} +\\lambda_{t}+\\varepsilon_{it} \\end{split} \\label{e2} \\end{equation}\\)\n\n\n\\(\\text{Screen Time}_{it}\\): Smartphone use time before users fall asleep\n\\(\\text{Social Network Features}_{it}\\): Degree Centrality and K-Core\n\\(\\text{X}_{it}\\): Control variables: Steps, sleep duration, naps, etc.\n\\(\\theta_i\\): Individual fixed effect (students)\n\\(\\lambda_t\\): Time fixed effect (day)"
+    "text": "Specification 2\n\\(\\begin{equation} \\begin{split} \\ln \\left(\\frac{\\operatorname{Pr}\\left(\\text { Addiction }_{it}=1 \\mid \\boldsymbol{X}_{i t}\\right)}{1-\\operatorname{Pr}\\left(\\text { Addiction }_{it}=1 \\mid \\boldsymbol{X}_{i t}\\right)}\\right) = \\beta_{0}+ \\beta_{1} \\cdot \\text{Social Network Features}_{it}+ \\\\ \\alpha \\cdot X_{it}+\\theta_{i} +\\lambda_{t}+\\varepsilon_{it} \\end{split} \\label{e2} \\end{equation}\\)\n\n\n\\(\\text{Screen Time}_{it}\\): Smartphone use time before users fall asleep\n\\(\\text{Social Network Features}_{it}\\): Degree Centrality and K-Core\n\\(\\text{X}_{it}\\): Control variables: Steps, sleep duration, naps, etc.\n\\(\\theta_i\\): Individual fixed effect (students)\n\\(\\lambda_t\\): Time fixed effect (day)"
+  },
+  {
+    "objectID": "posts/Paper 2/paper2.html#result-1-2-centrality-k-core",
+    "href": "posts/Paper 2/paper2.html#result-1-2-centrality-k-core",
+    "title": "Social Network Activation: Application in Smartphone Use",
+    "section": "Result 1 & 2 (Centrality & K-Core):",
+    "text": "Result 1 & 2 (Centrality & K-Core):"
   }
 ]

@@ -4,6 +4,7 @@ date: today
 categories: [Paper2]
 image: "inout.png"
 format: revealjs
+smaller: true
 ---
 
 ## Social Network Activation
@@ -31,7 +32,7 @@ format: revealjs
 
 \
 
-$\begin{equation} \begin{split} \text{Screen Time}_{it} = \beta_0 + \beta_1 \cdot \text{Social Network Features}_{it} + \\ \alpha \cdot X_{it} + \theta_i + \lambda_t + \varepsilon_{it} \end{split} \label{e1}\end{equation}$\
+$\begin{equation} \begin{split} \text{Screen Time}_{it} = \beta_0 + \beta_1 \cdot \text{Social Network Features}_{it} + \alpha \cdot X_{it} + \theta_i + \lambda_t + \varepsilon_{it} \end{split} \label{e1}\end{equation}$\
 
 -   $\text{Screen Time}_{it}$: Smartphone use time before users fall asleep
 -   $\text{Social Network Features}_{it}$: Degree Centrality and K-Core
@@ -39,12 +40,13 @@ $\begin{equation} \begin{split} \text{Screen Time}_{it} = \beta_0 + \beta_1 \cdo
 -   $\theta_i$: Individual fixed effect (students)
 -   $\lambda_t$: Time fixed effect (day)
 
-## Result 1: Main (Centrality & K-Core)
+## Result 1 & 2 (Centrality & K-Core):
 
 ![](images/2table5.png){fig-align="center"}
 
 ## Conclusion (H1 & H2)
-\ 
+
+ 
 
 ::: incremental
 -   Degree Centrality **does not** affect non-communication smartphone use but **improve**s overall smartphone use by increasing the time spent on communication. **H1 is not supported.**
@@ -55,8 +57,9 @@ $\begin{equation} \begin{split} \text{Screen Time}_{it} = \beta_0 + \beta_1 \cdo
 
 ![](images/2table6.png){fig-align="center"}
 
-## Conclusion 3 (H3)  
-\ 
+## Conclusion 3 (H3)
+
+ 
 
 ::: incremental
 -   Communication frequency shows **NO moderating impact** on the effectiveness of network features.  **H3 is not supported.**
@@ -74,9 +77,8 @@ Addiction is defined as:
 -   **Communication-drive** addiction: Communication screen time \> 40 min
 
 ## Specification 2
-\ 
 
-$\begin{equation}  \begin{split} \ln \left(\frac{\operatorname{Pr}\left(\text { Addiction }_{it}=1 \mid \boldsymbol{X}_{i t}\right)}{1-\operatorname{Pr}\left(\text { Addiction }_{it}=1 \mid \boldsymbol{X}_{i t}\right)}\right)  = \beta_{0}+\beta_{1} \cdot \text{Social Network Features}_{it}+ \\ \alpha \cdot X_{it}+\theta_{i} +\lambda_{t}+\varepsilon_{it}  \end{split}  \label{e2} \end{equation}$\
+$\begin{equation} \begin{split} \ln \left(\frac{\operatorname{Pr}\left(\text { Addiction }_{it}=1 \mid \boldsymbol{X}_{i t}\right)}{1-\operatorname{Pr}\left(\text { Addiction }_{it}=1 \mid \boldsymbol{X}_{i t}\right)}\right) = \beta_{0}+ \beta_{1} \cdot \text{Social Network Features}_{it}+ \\ \alpha \cdot X_{it}+\theta_{i} +\lambda_{t}+\varepsilon_{it} \end{split} \label{e2} \end{equation}$\
 
 -   $\text{Screen Time}_{it}$: Smartphone use time before users fall asleep
 -   $\text{Social Network Features}_{it}$: Degree Centrality and K-Core
@@ -112,7 +114,8 @@ outreg2 using SoUnAcSl.tex, append dec(3) addtext(Communication, Full, Unit F.E.
 ![](images/addiction2-02.png){fig-align="center"}
 
 ## Conclusion 4 (H4)
-\ 
+
+ 
 
 ::: incremental
 -   Network features **outperform** traditional constructs (Trust, Social Distance (Closeness)).
