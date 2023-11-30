@@ -3,13 +3,38 @@ title: "Social Network Activation: \\The Application in Smartphone Use"
 date: today
 categories: [Paper2]
 image: "inout.png"
-format: revealjs
+format:
+  revealjs: 
+    theme: default
 smaller: true
+
 ---
 
 ## Social Network Activation
 
 ![](inout.png){fig-align="center"}
+
+## Research Question
+
+Humans are inherently **social beings**.
+
+-   Social engagement ➟ belongingness, social fulfillment, etc (Luo et al. 2020).
+
+-   Social isolation ➟ anxiety, depression (Robb et al. 2020), and suicide (Garnett F. & Curtin C. 2023).\
+
+### **Research Gap**
+
+-   Prior research heavily focus on social interaction volume
+
+-   Structure of Social network ➟ human behavior?
+
+### Context:
+
+Social isolation ➟ Smartphone Addiction
+
+## Methodology
+
+<br> ![](images/method.png){fig-align="center"}
 
 ## Hypothesis 1
 
