@@ -7,7 +7,6 @@ format:
   revealjs: 
     theme: default
 smaller: true
-
 ---
 
 ## Social Network Activation
