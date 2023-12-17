@@ -1,0 +1,20 @@
+---
+title: "SP2 Reveiw Response: Social Network Activation: \\The Application in Smartphone Use"
+date: today
+categories: [Paper2]
+image: "inout.png"
+---
+
+::: panel-tabset
+## Dr.Idris Adjerid {#sec-dr.idris-adjerid}
+
+## Dr.Jiayi Liu {#sec-dr.jiayi-liu}
+
+| No. | Comments | Responses |
+|:---:|:---------|:----------|
+|  1  |          |           |
+|  2  |          |           |
+|  3  |          |           |
+
+: Review Response for Dr.Jiayi Liu
+:::
