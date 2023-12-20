@@ -1,0 +1,35 @@
+---
+title: "Behavior Segmentation for Smartphone Use "
+date: today
+categories: [Paper1]
+image: "inout.png"
+tbl-colwidths: [5,30,65]
+---
+
+We cluster the smartphone use behaviors based on the three major metrics of smartphone use actions: Screen time, unlock frequency and message.
+
+## Behavior Segmentation for Smartphone Use
+
+![](images/cluster1.png){fig-align="center"}
+
+From another angle:
+
+![](images/cluster2.png){fig-align="center"}
+
+## The optimal number of clusters
+
+![](images/OptimalK.png){fig-align="center"}
+
+## Cluster Description
+
+| sleep_debt |  sleep_debt | screen_time  | unlock       | message      |
+|------------|--------------|--------------|--------------|
+| count      | 49915.000000 | 49915.000000 | 49915.000000 | 49915.000000 |
+| mean       | 2.992147     | 2.740563     | 1.395733     | 1.667214     |
+| std        | 3.725099     | 4.596271     | 1.764085     | 3.660791     |
+| min        | -3.000000    | 0.000000     | 0.000000     | 0.000000     |
+| 25%        | 0.000000     | 0.000000     | 0.000000     | 0.000000     |
+| 50%        | 3.000000     | 0.000000     | 0.000000     | 0.000000     |
+| 75%        | 6.000000     | 3.916667     | 3.000000     | 1.000000     |
+| max        | 9.000000     | 27.200000    | 7.000000     | 20.000000    |
+

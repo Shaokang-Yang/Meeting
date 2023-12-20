@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Meeting",
     "section": "",
-    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSP2 Reveiw Response: Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nPaper1\n\n\n\n\n\n\n\n\n\n\n\nDec 18, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSP2 Reveiw Response: Social Network Activation: Application in Smartphone Use\n\n\n\n\n\n\n\nPaper2\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2023\n\n\n\n\n\n\n  \n\n\n\n\nSmartphone Use, Social Support, and Sleep Health\n\n\n\n\n\n\n\nPaper1\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2023\n\n\n\n\n\n\n  \n\n\n\n\nBehavior Segmentation for Smartphone Use\n\n\n\n\n\n\n\nPaper1\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -74,14 +74,14 @@
     "href": "posts/Paper 1/paper1.html",
     "title": "Smartphone Use, Social Support, and Sleep Health",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Normal Sleep: fall asleep from 22 pm to 6 am. (95.99 % of Total.)"
   },
   {
     "objectID": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution",
     "href": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution",
     "title": "Smartphone Use, Social Support, and Sleep Health",
-    "section": "Falling Asleep Hours Distribution",
-    "text": "Falling Asleep Hours Distribution\n\nNormal Sleep: fall asleep from 22 pm to 6 am. (95.99 % of Total.)"
+    "section": "",
+    "text": "Normal Sleep: fall asleep from 22 pm to 6 am. (95.99 % of Total.)"
   },
   {
     "objectID": "posts/Paper 1/paper1.html#falling-asleep-hours-distribution-1",
@@ -221,14 +221,14 @@
     "href": "posts/Paper 2/paper2.html#hypothesis-1",
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Hypothesis 1",
-    "text": "Hypothesis 1\n\n\nH1: Activating social networks with a higher Degree Centrality score reduces the time spent on a smartphone."
+    "text": "Hypothesis 1\n\n\n\n\n\n\nH1: Activating social networks with a higher Degree Centrality score reduces the time spent on a smartphone."
   },
   {
     "objectID": "posts/Paper 2/paper2.html#hypothesis-2",
     "href": "posts/Paper 2/paper2.html#hypothesis-2",
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Hypothesis 2",
-    "text": "Hypothesis 2\n\n\nH2: Activating social networks with a higher K-Core score reduces the time spent on a smartphone."
+    "text": "Hypothesis 2\n\n\n\n\n\n\nH2: Activating social networks with a higher K-Core score reduces the time spent on a smartphone."
   },
   {
     "objectID": "posts/Paper 2/paper2.html#hypothesis-3",
@@ -424,7 +424,7 @@
     "href": "posts/Paper 2/paper2.html#research-question",
     "title": "Social Network Activation: Application in Smartphone Use",
     "section": "Research Question",
-    "text": "Research Question\nHumans are inherently social beings.\n\nSocial engagement ➟ belongingness, social fulfillment, etc (Luo et al. 2020).\nSocial isolation ➟ anxiety, depression (Robb et al. 2020), and suicide (Garnett F. & Curtin C. 2023).\n\n\nResearch Gap\n\nPrior research heavily focus on social interaction volume\nStructure of Social network ➟ human behavior?\n\nContext:\nSocial isolation ➟ Smartphone Addiction"
+    "text": "Research Question\nHumans are inherently social beings.\n\nSocial engagement ➟ belongingness, social fulfillment, etc (Luo et al. 2020).\nSocial isolation ➟ anxiety, depression (Robb et al. 2020), and suicide (Garnett F. & Curtin C. 2023).\n\n\n\nResearch Gap\n\nPrior research heavily focus on social interaction volume\nStructure of Social network ➟ human behavior?\n\n\n\nContext:\nSocial isolation ➟ Smartphone Addiction"
   },
   {
     "objectID": "posts/Paper 2/paper2.html#methodology",
@@ -446,5 +446,40 @@
     "title": "SP2 Reveiw Response: Social Network Activation: Application in Smartphone Use",
     "section": "Dr.Jiayi Liu",
     "text": "Dr.Jiayi Liu\nThank you for your valuable comments and feedback.\n\nReview Response for Dr.Jiayi Liu\n\n\n\n\n\n\n\nNo.\nComments\nResponses\n\n\n\n\n1\nIt appears to be that those with higher core-number are mostly close friends. Then one could say that the story is actually much simpler: merely engaging with close friends is what matters. Can you argue for using network features, like core-number, against more intuitive metrics such as contact closeness in this context?\nThank you for your constructive comments. We measured the social distance of smartphone users with their contacts, as well as their level of trust in those contacts, which are the common measurement of interpersonal relationships.\nThe estimation of the above two constructs suggest that they do not have significant impact on participants smartphone use behavior. Please refer to Table 5:\n\n\n\n2\nA fundamental assumption is that social interactions mainly occur through calls and messages. Although the author has presented data showing a link between self-reported interaction levels and observed call/message frequencies, this doesn’t establish that calls/messages are the primary channels of interaction. People could have spent more time on other social platforms and offline activities (with the time spent also aligning with the self-reported interaction levels). How do you plan to address these potential unobserved interactions? Or can you justify they don’t affect your results?\nThis is an important issue that we need to address. Thanks for pointing this out. First, for the unobserved offline social interactions, there could be two categories:\n\nSmartphone users’ offline social interactions were initiated by online communication and then it was siwthed to offline social interaction. In this situation , the activation of social network is activated by smartphone communication. This scenario could support our 1 & and 2 hypothesis: activating embedded contacts and interacting with them could facilitate offline social engagement.\nOffline social interaction is independent of smartphone communication. In another word, the activation of social network is not based on smartphone communication.\nWe identified smartphone users who are addicted to smartphone, which are those who spent excessive time on smartphone.\n\nSecond, in terms of social interactions happening on other platforms, it is indeed unobservable in our data set. However, based on the market share of the most popular mobile messaging channels, our data covered the leading four channels (Whatsapp, Phone calls, Facebook messager and Texting (SMS):\nTherefore, we suppose that our data has covered the majority of mobile communication channels.\n\n\n3"
+  },
+  {
+    "objectID": "posts/Clustering Anlysis/cluster.html",
+    "href": "posts/Clustering Anlysis/cluster.html",
+    "title": "Behavior Segmentation for Smartphone Use",
+    "section": "",
+    "text": "We cluster the smartphone use behaviors based on the three major metrics of smartphone use actions: Screen time, unlock frequency and message."
+  },
+  {
+    "objectID": "posts/Clustering Anlysis/cluster.html#visualization-of-behavior-clustering",
+    "href": "posts/Clustering Anlysis/cluster.html#visualization-of-behavior-clustering",
+    "title": "Behavior Segmentation for Smartphone Use",
+    "section": "Visualization of Behavior Clustering",
+    "text": "Visualization of Behavior Clustering\n\n\n\n\n\nFrom another angle:"
+  },
+  {
+    "objectID": "posts/Clustering Anlysis/cluster.html#the-optimal-number-of-clusters",
+    "href": "posts/Clustering Anlysis/cluster.html#the-optimal-number-of-clusters",
+    "title": "Behavior Segmentation for Smartphone Use",
+    "section": "The optimal number of clusters",
+    "text": "The optimal number of clusters"
+  },
+  {
+    "objectID": "posts/Clustering Anlysis/cluster.html#behavior-segmentation-for-smartphone-use",
+    "href": "posts/Clustering Anlysis/cluster.html#behavior-segmentation-for-smartphone-use",
+    "title": "Behavior Segmentation for Smartphone Use",
+    "section": "Behavior Segmentation for Smartphone Use",
+    "text": "Behavior Segmentation for Smartphone Use\n\n\n\n\n\nFrom another angle:"
+  },
+  {
+    "objectID": "posts/Clustering Anlysis/cluster.html#cluster-description",
+    "href": "posts/Clustering Anlysis/cluster.html#cluster-description",
+    "title": "Behavior Segmentation for Smartphone Use",
+    "section": "Cluster Description",
+    "text": "Cluster Description\n\n\n\n\n\n\n\n\n\nsleep_debt\nsleep_debt\nscreen_time\nunlock\n\n\n\n\ncount\n49915.000000\n49915.000000\n49915.000000\n\n\nmean\n2.992147\n2.740563\n1.395733\n\n\nstd\n3.725099\n4.596271\n1.764085\n\n\nmin\n-3.000000\n0.000000\n0.000000\n\n\n25%\n0.000000\n0.000000\n0.000000\n\n\n50%\n3.000000\n0.000000\n0.000000\n\n\n75%\n6.000000\n3.916667\n3.000000\n\n\nmax\n9.000000\n27.200000\n7.000000"
   }
 ]
